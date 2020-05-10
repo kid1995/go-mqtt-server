@@ -12,8 +12,11 @@ Prepare a mqtt-broker and mongdb to test.
 
 
 mqtt-server file is a execute binary file for linux/amd64:	
+
 		mqtt-server -broker=[broker-link] -topic=[topic-name]
+
 Example:
+
 		./mqtt-server -broker=tcp://0.0.0.0:1883 -topic=sensors
 		
 
